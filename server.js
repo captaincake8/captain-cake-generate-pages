@@ -1,14 +1,14 @@
 
 var logger = require('log4js').getLogger('server');
 var express = require('express');
+
+var controllers = require('backend/controllers');
+
 var app = express();
 
 logger.info('hello');
 
-app.post('/pages/create', function( req, res ){
-    logger.info('creating page');
-   res.send(200);
-});
+app.post('/backend/pages/create', controllers.pages.create );
 
 app.get('/', function (req, res) {
 

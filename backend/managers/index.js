@@ -1,0 +1,4 @@
+
+
+
+exports.pages = require('./PageManager');

@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "dependencies": {
     "express": "^4.4.5",
-    "log4js": "^0.6.15"
+    "log4js": "^0.6.15",
+    "mongodb": "^1.4.7"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
